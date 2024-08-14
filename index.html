@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Rose:wght@300..700&family=Rowdies:wght@300;400;700&family=Silkscreen&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <a href="">
+            <img src="./Images/logo.png" alt="" class="logo">
+            </a>
+            <!-- CheckBox -->
+             <input type="checkbox" id="check">
+             <label for="check" class="navIcon">
+                <!-- Menu icon -->
+                <i class='bx bx-menu' id="menuIcon"></i>
+                 <!--close icon  -->
+                 <i class='bx bx-x' id="closeIcon"></i>
+             </label>
+            <nav class="navBar">
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#galleryGrid">GALLERY</a>
+                <a href="#footer">CONTACT</a>
+            </nav>
+    </header>
+    <div id="home">
+        <div class="image">
+            <img src="./Images/indonesia.jpg" alt="" class="homeImage">
+            <div class="heading">
+                <h1 class="mainHead">Discover</h1>
+                <h1 class="subHead">Your World</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div data-aos="fade-right" class="aboutContent">
+            <p class="para1">Indonesia, the world's largest archipelago, is a vibrant and diverse nation in Southeast Asia, consisting of over 17,000 islands. With a population exceeding 273 million, it is the fourth most populous country globally and is known for its rich cultural tapestry, where over 300 ethnic groups and more than 700 languages coexist. Indonesia's landscapes range from lush rainforests and active volcanoes to idyllic beaches and coral reefs, making it a natural paradise. The country is the largest Muslim-majority nation, yet it is home to a variety of religions, including Hinduism, Christianity, and Buddhism. Indonesia's economy is one of the largest in the region, driven by natural resources, agriculture, and a burgeoning tourism industry, particularly in iconic destinations like Bali. Having gained independence in 1945 after centuries of Dutch colonization, Indonesia today is a dynamic democracy with a rich cultural heritage and a critical role in global affairs.</p>
+        </div>
+        <div data-aos="fade-left" class="aboutImg">
+            <img src="./Images/indo.jpg" alt="" class="aboutImage">
+        </div>
+    </div>
+    <div id="about2">
+        <div data-aos="fade-right" class="aboutImage">
+            <img src="./Images/indo2.webp" alt="" class="aboutImage2">
+        </div>
+        <div data-aos="fade-left" class="aboutContent2">
+           <p class="para2">
+            Indonesia's livelihood is deeply rooted in its diverse geography, natural resources, and cultural heritage. The majority of Indonesians are engaged in agriculture, with rice being the staple crop, along with palm oil, rubber, coffee, and spices. Fishing is also a vital part of the livelihood, especially in coastal communities across the archipelago. In rural areas, traditional crafts like batik-making, weaving, and wood carving provide additional income. Urban areas see more employment in manufacturing, services, and tourism, with cities like Jakarta and Bali being economic hubs. Despite rapid modernization, many Indonesians still rely on small-scale farming, local markets, and community-based trades for their daily sustenance. However, challenges such as unequal access to education and healthcare, coupled with environmental concerns like deforestation, impact the sustainability of livelihoods across the country.
+           </p>
+        </div>
+    </div>
+    <div id="galleryGrid">
+        <h1 class="galleryHead">Gallery</h1>
+    <div class="gallery">
+        <div data-aos="flip-up" class="cards">
+            <img class="cardImage" src="./Images/pexel1.jpg" alt="">
+        </div>
+        <div data-aos="flip-up" class="cards">
+            <img class="cardImage" src="./Images/pexel2.jpg" alt="">
+        </div>
+        <div data-aos="flip-up" class="cards">
+            <img class="cardImage" src="./Images/pexel3.jpg" alt="">
+        </div>
+        <div data-aos="flip-up" class="cards">
+            <img class="cardImage" src="./Images/pexel4.jpg" alt="">
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footerClass" id="footer">
+        <div class="footerLogo">
+            <a href="#header"><img class="footerImage" src="./Images/logo.png" alt=""></a>
+        </div>
+        <div class="footerContent">
+            <div class="icons"><a href="" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+            </div>
+            <div class="icons">
+                <a href="" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+            </div>
+            <div class="icons">
+                <a href="" target="_blank"><i class="fa-brands fa-youtube brands"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html> 
